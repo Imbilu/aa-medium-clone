@@ -1,0 +1,111 @@
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(252, 161, 41);
+    padding: 30px 0;
+    border-bottom: 2px solid black;
+    height: 5vh;
+    /* box-sizing: border-box; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
+    width: -webkit-fill-available;
+}
+
+
+.icon {
+    height: 150px;
+    margin-left: 40px;
+}
+
+.nav-link {
+    padding-right: 5px;
+    color: black;
+}
+
+.nav-btn {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 50px;
+}
+
+body {
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.articles {
+    padding: 20px;
+}
+
+
+main {
+    background-color: rgb(252, 161, 41);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 90vh;
+    border-bottom: 2px solid black;
+}
+
+.big-text {
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 120px;
+    line-height: 95px;
+}
+
+.text {
+    padding-left: 80px;
+}
+
+.text > p {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.text > .btn {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 50px;
+}
+
+/* footer {
+    height: 10%;
+} */
+
+.footer-links {
+    list-style-type: none;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-link {
+    padding-right: 10px;
+    color: lightgray;
+}
